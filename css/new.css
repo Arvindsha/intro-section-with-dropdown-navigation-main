@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 18px;
+    background-color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/*------------ nav bar Section------- */
+nav{
+    height: 15vh;
+    width: 98vw;
+    display:flex;
+    justify-content:space-between ;
+}
+
+
+.logo{
+    height: 100%;
+display: flex;
+align-items: center;
+padding: 0 50px;
+
+}
+
+
+.logo ul{
+    display: flex;
+}
+
+
+.logo li{
+    list-style: none;
+    margin: 20px;
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo img{
+    height: 35%;
+}
+
+.signup{
+    height: 100%;
+    padding: 35px;
+}
+.signup a:first-child{
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.signup button{
+    height: 50px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: transparent;
+}
+
+
+main{
+    margin: 0;
+    height: 83vh;
+    width: 98vw;
+    display: flex;
+    /* margin-left: 50px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    
+
+}
+.content{
+    width: 40%;
+    height: 90%;
+    margin-left: 100px;
+}
+.content h1{
+    font-size: 65px;
+    width: 550px;
+    letter-spacing: 0.1;
+    line-height: 1;
+    margin-top: 100px;
+}
+.image{
+    width: 35%;
+    height: 90%;
+}
+
+.image img{
+    height: 500px;
+}
+
+.content p{
+    width: 450px;
+    opacity: 0.7;
+
+}
+
+.content button{
+    width:150px ;
+    height:40px ;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+}
+.content img{
+    margin-top:40px ;
+    width: 20%;
+    padding: 15px;
+
+}
